@@ -1,0 +1,16 @@
+PODS:
+  - subtest (0.1.0)
+
+DEPENDENCIES:
+  - subtest (from `./DevPods/subtest/`)
+
+EXTERNAL SOURCES:
+  subtest:
+    :path: "./DevPods/subtest/"
+
+SPEC CHECKSUMS:
+  subtest: be4837f2f455542099e3db4f2bf5772c683e5593
+
+PODFILE CHECKSUM: ff209d2e79471f452e6c0c16a6c964dcd1db9c59
+
+COCOAPODS: 1.9.1
