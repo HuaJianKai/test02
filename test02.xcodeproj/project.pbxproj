@@ -16,7 +16,6 @@
 		547E8B11244D486700708181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 547E8B10244D486700708181 /* main.m */; };
 		547E8B1B244D486700708181 /* test02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 547E8B1A244D486700708181 /* test02Tests.m */; };
 		547E8B26244D486700708181 /* test02UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 547E8B25244D486700708181 /* test02UITests.m */; };
-		547E8B3A244D48E800708181 /* libsubtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 547E8B38244D48DA00708181 /* libsubtest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +32,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 547E8AFA244D486500708181;
 			remoteInfo = test02;
-		};
-		547E8B37244D48DA00708181 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 547E8B33244D48DA00708181 /* subtest.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 547E8ADD244D46B400708181;
-			remoteInfo = subtest;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -62,7 +54,6 @@
 		547E8B21244D486700708181 /* test02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		547E8B25244D486700708181 /* test02UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test02UITests.m; sourceTree = "<group>"; };
 		547E8B27244D486700708181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		547E8B33244D48DA00708181 /* subtest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = subtest.xcodeproj; path = subtest/subtest.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +61,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				547E8B3A244D48E800708181 /* libsubtest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +84,6 @@
 		547E8AF2244D486500708181 = {
 			isa = PBXGroup;
 			children = (
-				547E8B33244D48DA00708181 /* subtest.xcodeproj */,
 				547E8AFD244D486500708181 /* test02 */,
 				547E8B19244D486700708181 /* test02Tests */,
 				547E8B24244D486700708181 /* test02UITests */,
@@ -147,14 +136,6 @@
 				547E8B27244D486700708181 /* Info.plist */,
 			);
 			path = test02UITests;
-			sourceTree = "<group>";
-		};
-		547E8B34244D48DA00708181 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				547E8B38244D48DA00708181 /* libsubtest.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		547E8B39244D48E800708181 /* Frameworks */ = {
@@ -253,12 +234,6 @@
 			mainGroup = 547E8AF2244D486500708181;
 			productRefGroup = 547E8AFC244D486500708181 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 547E8B34244D48DA00708181 /* Products */;
-					ProjectRef = 547E8B33244D48DA00708181 /* subtest.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				547E8AFA244D486500708181 /* test02 */,
@@ -267,16 +242,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		547E8B38244D48DA00708181 /* libsubtest.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libsubtest.a;
-			remoteRef = 547E8B37244D48DA00708181 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		547E8AF9244D486500708181 /* Resources */ = {
